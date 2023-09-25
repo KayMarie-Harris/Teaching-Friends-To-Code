@@ -1,0 +1,7 @@
+
+2 - go to https://git-scm.com/downloads and install the latest version for your machine
+3 - go to https://github.com/ & create an account : Welcome to your new Portfolio :3
+4 - Create a new repository & name it "Learning-to-Code" or whatever ou think is fit
+5 - Create a folder to save your coding projects
+6 - Clone the git repo into your Projects folder using windows powershell
+        - You'll probably have to login to connect your github

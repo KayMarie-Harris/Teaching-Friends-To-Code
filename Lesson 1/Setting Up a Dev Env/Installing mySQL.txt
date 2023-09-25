@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=u96rVINbAUI
+
+1 - Install the mySql installer https://dev.mysql.com/downloads/installer/
+2 - Open installer & give permissons
+3 - choose custom setup type
+4 - mySQL Servers -> mySQL Server -> mySQL Server 8.0 
+        click mySQL Server 8.0 version to highlight and click green arrow to move it to the right side
+5 -  Applications -> mySQL Workbench -> mySQL Workbench 8.0
+        click mySQL Workbench 8.0 version to highlight and click green arrow to move it to the right side
+6 - next -> execute
+7 - go through config settings 
+8 - create a password

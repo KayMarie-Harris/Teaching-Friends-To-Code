@@ -1,0 +1,5 @@
+1 - go to https://code.visualstudio.com/download and install VSCode
+2 - go to extentions (ctrl + shift + x) & Install git graph
+3 - install Python extention
+4 - install Prettier - Code formatter
+5 - also install vscode-pets for maximum fun

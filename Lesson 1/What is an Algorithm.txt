@@ -1,0 +1,20 @@
+Algorithm: A step-by-step set of instructions for solving a problem
+    ex:  cooking recipie 
+
+
+Coding is essentially breaking down a big problem into smaller steps
+     -> breaking it down into algorithms
+
+Pseudocode: uses plain language to break down a problem into steps
+     -> used to plan & outline an algorithm
+     -> Ex: the Pseudocode for the "algorithm" to make a sandwich would look like so:
+            1. get two slices of bread
+            2. get a jar of peanut butter
+            3. get a jar of jelly
+            4. get a butter knife
+            5. open the peanut butter jar and put some on the knife
+            6. spread peanut butter on one side of a slice of bread
+            .
+            .
+            .
+            etc.
