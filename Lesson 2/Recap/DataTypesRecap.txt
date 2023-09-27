@@ -1,0 +1,9 @@
+variable - a named container for a type of data
+
+Data Types: 
+string - used to represent a text or a sequence of characters
+int - include numbers positive & negative
+float - represents numbers w decimal points
+bool - 'True' or 'False'
+char - represents a single character
+None/null - represents the absence of a value

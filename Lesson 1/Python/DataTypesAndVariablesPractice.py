@@ -4,12 +4,11 @@ x = "Hello World!"  # x is a variable of type string
 # A string is used to represent a text or a sequence of characters
 # "123", "Python", & "I want to die" are all strings
 
-# S
 
 y = "Hello"
 z = " World"
 
-# print(y + z)  # you can add variables together
+# print(y + z)  # you can add strings together
 
 # you can also redefine a variable
 
