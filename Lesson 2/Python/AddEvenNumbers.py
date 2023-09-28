@@ -12,7 +12,7 @@ sum_even = 0
 for num in range(start, end + 1):
     # Step 4: Check if the number is even and add it to the sum
     if num % 2 == 0:
-        sum_even += num
+        sum_even += num  # same as sum_even = sum_even + num
 
 # Step 5: Print the sum of even numbers
 print("Sum of even numbers in the range:", sum_even)
