@@ -1,0 +1,13 @@
+Tree: a data structure in which data items are connected using references in a hierarchical manner in the form of 
+        edges and nodes
+
+Child Node: Child nodes of a parent node are the nodes at which the parent node is pointing using the references. 
+
+Edge: The reference through which a parent node is connected to a child node is called an edge
+
+Leaf Node: These are those nodes in the tree that have no children
+
+Internal Nodes: Internal Nodes are the nodes that have at least one child
+
+A binary tree is a tree data structure in which each node can have a maximum of 2 children.  
+    It means that each node in a binary tree can have either one, or two or no children

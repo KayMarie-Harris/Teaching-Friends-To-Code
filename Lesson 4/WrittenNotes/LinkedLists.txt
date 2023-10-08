@@ -1,0 +1,14 @@
+Review:
+    Linked List - a linear data structure that has a collection of nodes that are linked with each other
+    # Draw visualization
+    uses next() points to the next item in the list
+
+
+Advantages:
+    Frequent Insertions and Deletions in Middle: If your application involves frequent insertion or deletion of elements 
+    in the middle of the list, linked lists can outperform arrays, as inserting or deleting elements in an array requires 
+    shifting all the elements after the insertion or deletion point.
+
+    Can represent circular data
+
+    EXs: NAv systems, conversations, playlists, browser history

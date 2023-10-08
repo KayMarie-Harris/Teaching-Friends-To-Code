@@ -1,0 +1,15 @@
+Lists Vs Arrays:
+
+    Lists:
+        - not fixed in size
+        - can store various data types at the same time
+        - built in data structure in python
+    Arrays:
+        - fixed in size
+        - can store only ONE same single data type at a time
+        - not built in, must import 
+        - more compact and mem efficient
+
+
+
+    Both: mutable ordered sequence of elements

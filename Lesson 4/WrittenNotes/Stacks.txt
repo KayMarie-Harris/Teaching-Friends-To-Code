@@ -1,0 +1,35 @@
+Review:
+    Stack - A linear data structure that follows LIFO
+    LIFO - Last in First Out
+
+Operations:
+    push(item) - adds item to the Stack
+        # Draw out example
+    
+    top()/peek() : item-type - Returns the last item pushed into the Stack
+        # Draw out example & Expected Output
+
+    pop() - Removes the most recently pushed item from the stack
+        # Draw out example 
+    
+    is_empty() : Boolean - True if no more items can be popped and there is no top item
+         # Draw out example & Expected Output
+
+    is-full():Boolean - True if no more items can be pushed
+        # Draw out example & Expected Output
+
+    get-size():Integer - Returns the number of elements on the stack.
+        # Draw out example & Expected Output
+
+# Examples : A stack of plates, cars in a one car wide driveway, dequeue, backtracking in the searching algorithms
+
+Advantages:
+    - Stack data structure operations are simple to understand and implement.
+    - Efficient memory utilization
+    - Fast access time: Stack data structure provides fast access time for adding and removing elements as the elements are added and removed from the top of the stack.
+    - supports backtracking
+
+Disadvantages:
+    - limited capacity
+    - no rand access
+    - not sutible for applications like searching and sorting

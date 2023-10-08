@@ -1,0 +1,25 @@
+Review:
+    Queue:  data structures that follow FIFO 
+    FIFO: First in First out
+
+Operations:
+
+    enqueue(item): 
+        - Adds item to the queue
+    dequeue():
+        - Removes an item from the queue in the same order in which they are pushed.
+    front():
+        - Get the front item from queue
+    rear():
+        - Get the last item from queue
+
+
+Advantages:
+    - It is easy to implement as it follows the FIFO principles.
+    - Easy to insert or delete the elements in the queue.
+    - Can add the new element any time in the end.
+
+Disadvantages:
+    - It is not easy to delete the elements from the middle.
+    - Difficult to create and maintain.
+    - It is a non-linear data structure that takes a large amount of memory when compared to linear data structures.
