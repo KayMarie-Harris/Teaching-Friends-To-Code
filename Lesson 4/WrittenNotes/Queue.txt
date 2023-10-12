@@ -22,4 +22,3 @@ Advantages:
 Disadvantages:
     - It is not easy to delete the elements from the middle.
     - Difficult to create and maintain.
-    - It is a non-linear data structure that takes a large amount of memory when compared to linear data structures.

@@ -1,7 +1,6 @@
 # a class is a blueprint for creating objects
 #  Here's the basic syntax for defining a class in Python:
 
-
 class ClassName:
     # Class variables (shared by all instances of the class, if any)
     class_variable = "I am a class variable"
