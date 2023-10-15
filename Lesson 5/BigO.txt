@@ -1,0 +1,42 @@
+Big O notation is a way to describe the performance of an algorithm, it's used to analyze and compare the efficiency
+of algorithms. Understanding Big O notation is essential for writing efficient code and optimizing algorithms.
+
+1. What is Big O Notation?
+
+    Definition: Big O notation describes the upper bound of the time or space complexity of an algorithm in the worst-case 
+        scenario.
+    Simplifying Complexity: Big O helps us simplify the complexity of algorithms into easy-to-understand terms.
+
+2. Why is Big O Important?
+
+    Efficiency Matters: Efficient algorithms can process data faster and use less memory.
+    Scalability: Big O helps us predict how our algorithms will perform as the input size grows.
+
+3. Common Time Complexities:
+
+    O(1) - Constant Time: Operations take the same amount of time regardless of the input size. 
+        Example: accessing an element in an array using its index.
+    O(log n) - Logarithmic Time: The time it takes to complete an operation is reduced by a fraction with each operation. 
+        Common in divide and conquer algorithms like binary search.
+    O(n) - Linear Time: The time taken by an operation increases linearly with the size of the input.
+         Example: iterating through an array.
+    O(n log n) - Linearithmic Time: 
+        Common in efficient sorting algorithms like merge sort and quicksort.
+    O(n^2) - Quadratic Time: Time is proportional to the square of the input size. 
+        Common in nested loops.
+    O(2^n) - Exponential Time: Time grows exponentially with the input size. 
+        Often found in recursive algorithms without memoization.
+
+4. Common Space Complexities:
+
+    O(1) - Constant Space: The algorithm uses a fixed amount of memory, regardless of the input size.
+    O(n) - Linear Space: Memory usage grows linearly with the input size. Example: storing input elements in an array.
+    O(n^2) - Quadratic Space: Memory usage grows quadratically with the input size. 
+        Common in algorithms using nested arrays or matrices.
+
+5. Tips for Understanding and Analyzing Big O:
+
+    Focus on Dominant Terms: For complex algorithms, focus on the term that grows the fastest as the input size increases.
+    Drop Constants: Big O notation ignores constants, focusing on the overall trend of the algorithm's growth.
+    Worst-Case Analysis: Big O often represents the worst-case scenario, helping us understand the upper limit of 
+        an algorithm's performance.
