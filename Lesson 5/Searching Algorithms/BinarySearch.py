@@ -21,7 +21,7 @@ def binary_search(arr, target):
 
 # Example usage:
 arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
-target = 11
+target = 3
 if binary_search(arr, target):
     print(f"Element {target} found in the list.")
 else:

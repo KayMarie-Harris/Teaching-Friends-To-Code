@@ -1,0 +1,19 @@
+
+
+A HashMap in Java is a data structure that implements the Map (Maps are also known as dictionaries) interface and provides key-value pairs storage.
+ It allows you to store and retrieve objects based on keys and is particularly useful when you need fast access to
+ data and you want to associate one piece of data (the "value") with another (the "key").
+
+Key Features of HashMap:
+Key-Value Pairs:
+
+HashMap stores data in key-value pairs. Each key is associated with a specific value.
+Fast Retrieval:
+
+HashMap provides constant-time performance for basic operations (get and put) in the average case, making it efficient for large datasets.
+Unordered Collection:
+
+HashMap does not guarantee the order of elements. If you need to maintain insertion order, you can use LinkedHashMap, a variation of HashMap that preserves the order of elements.
+Null Keys and Values:
+
+HashMap allows null values and one null key. This means you can have key-value pairs where the key or the value (or both) is null.

@@ -1,0 +1,28 @@
+Access Modifiers
+
+In Java, access modifiers are keywords used to define the visibility or accessibility of classes, methods, variables,
+and constructors within a program.
+
+There are four different types of modifiers:
+
+    1. Public - Members declared as public are accessible from any class. They have the widest scope and can be
+                accessed from any class or package.
+    2. Protected - Members declared as protected are accessible within the same package and by subclasses
+                   outside the package.
+    3. Private - Members declared as private are accessible only within the same class. They are not visible to any
+                 other class, even subclasses.
+    4. Default - if you do not specify an access modifier, it defaults to package-private. Members with default access
+                 are accessible only within the same package.
+
+
+What does static mean?
+
+    static is a keyword in Java used to create variables and methods that belong to the class itself,
+    rather than to instances of the class
+
+
+What is void?
+
+    void is a keyword used in Java to declare that a method does not return any value. When a method has a return type
+    of void, it means the method performs a task but does not produce a result that can be used in expressions.
+    void methods are often used for actions or operations that do not need to return a value.
