@@ -1,5 +1,6 @@
-public class Main {
+package MoreJavaPractice;
 
+public class LearningJavaSyntax {
     public static void main(String[] args) {
         int age = 15;
 
@@ -8,4 +9,3 @@ public class Main {
         System.out.println("They are " + age);
     }
 }
-
