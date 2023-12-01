@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> JavaScript Practice </title>
+    <link rel="stylesheet" href="../CSS/javascript.css">
+</head>
+
+<body>
+    <h1 id="heading">JavaScript Practice</h1>
+
+    <h2> What is JavaScript?</h2>
+    <p>While html defines the content of the page and css defines the layout, <b>JavaScript is a language that defines
+            the interactivity of a webpage.</b> </p>
+
+    <h2>Let's See What we can do with JavaScript</h2>
+
+    <button type="button" id="myButton">Click Me</button>
+    <button type="button" onclick="greet()">Click Me</button>
+
+    <p>
+    <form>
+        <label>What's your name?</label><br>
+        <input type="text" id="name" placeholder="Type your name"><br>
+    </form>
+    <button id="submit-name">Submit</button>
+    </p>
+
+    <p id="change-me">You can also change the text in the html tags</p>
+
+    <p>What does this button do? <button id="hide-show" onclick="HideShow()">Click me!</button></p>
+
+    <img src="../Images/controller.jpg" height="100" onmouseover="showText()" onmouseout="hideText()">
+    <p id="hidden"> This is an image of a controller</p>
+
+    <script src="../JS/jspractice.js"></script>
+
+
+</body>
+
+</html>

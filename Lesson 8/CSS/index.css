@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(1, 28, 13);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.hobby-header {
+    display: flex;
+    border-style: solid;
+    border-radius: 100px;
+    background-color: rgb(0, 110, 68);
+    box-shadow: 2px 2px 10px black;
+    font-size: 25px;
+}
+
+.hobby-header h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hobby-img {
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#cropped {
+    width: 100px;
+    object-fit: cover;
+    object-position: 65%;
+}
+
+.hobby {
+    background-color: rgba(0, 110, 68, 0.734);
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.hobby p {
+    padding: 0 10px 5px 10px;
+    /* top right bottom left */
+}
+
+a {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.page-head {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.page-head img {
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.page-head h1 {
+    font-size: 90px;
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+table,
+tr,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+}

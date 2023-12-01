@@ -1,0 +1,109 @@
+API - Application Programming Interface (connects apps together)
+
+    You can connect multiple small Apps (think of Apps as code existing on a server)
+
+    Where those pieces connect is what you call an API
+
+    FE, Payment Services, BE, Database all being connected together is your API
+
+    A login form makes up a UI or User Interface
+
+    the connection, or the code is the API
+
+    API's have 3 basic strucutres, a call, a request, and a response.
+
+How do API's actually work?
+
+    In a Web API, which usually delivers a client request  and return via JSON or XML
+        (JSON is a data interchange format commonly used in API output)
+        (XML is a markup language that provides rules to define data)
+        each request and reponse cycle is an api Call
+
+
+    JSON: 
+        {"guests":[
+
+        { "firstName":"John", "lastName":"Doe" },
+
+        { "firstName":"María", "lastName":"García" },
+
+        { "firstName":"Nikki", "lastName":"Wolf" }
+        
+        ]}
+    XML: 
+        <guests>
+
+            <guest>
+
+                <firstName>John</firstName> <lastName>Doe</lastName>
+
+            </guest>
+
+            <guest>
+
+                <firstName>María</firstName> <lastName>García</lastName>
+
+            </guest>
+
+            <guest>
+
+                <firstName>Nikki</firstName> <lastName>Wolf</lastName>
+
+            </guest>
+
+        </guests>
+
+REQUESTS:
+
+    A request is usually made up of an endpoint URL and a request method
+
+    enpoint url: a specific URL representing a specific API resource or action
+    HTTP Request Methods: HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Some common requests include:
+
+       *GET - The GET method requests a representation of the specified resource. Requests using GET should only retrieve data. Ex: when a client wants to fetch all pending orders belonging to a user from a backend server
+
+       *POST - The POST method requests are used to send data to the API server to create or update a resource
+
+       *PUT - Similar to POST, PUT requests are used to send data to the API to update or create a resource, however it does so idempotently. (will always produce the same result)
+      
+      *PATCH - Partially modifies a resource
+
+      *DELETE - The DELETE method deletes the specified resource.
+       
+
+    REQUEST STRUCTURE:
+
+        const reqMethod = {
+                method: 'GET', // Method itself
+                headers: {
+                'Content-type': 'application/json' // Indicates the content 
+                },
+                body: JSON.stringify(someData) // We send data in JSON format, usually uses the ID or unique Identifer
+                }
+
+        // make the HTTP request using fetch api
+        fetch(url, reqMethod)
+            .then(response => response.json())
+            .then(data => console.log(data)) // Manipulate the data retrieved back, if we want to do something with it
+            .catch(err => console.log(err)) // Do something with the error
+        
+
+RESPONSE:
+
+    THe reponse contains a status code, a header, and the reponse body (usually in html)
+    100-199 => Informational response
+    200-299 => Successful responses
+    200-299 => Redirection messages
+    400-499 => Client error responses
+    500-599 => Server error responses
+    
+    Common Status Codes:
+        200 OK - The request succeeded
+        201 Created - The request succeeded, and a new resource was created as a result. 
+        204 No Content - There is no content to send for this request, but the headers may be useful.
+        400 Bad Request - The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
+        401 Unauthorized - semantically this response means "unauthenticated". That is, the client must authenticate itself to get the requested response
+        403 Forbidden - The client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource. Unlike 401 Unauthorized, the client's identity is known to the server.
+        404 Not Found - The server cannot find the requested resource.
+        500 Internal Server Error - The server has encountered a situation it does not know how to handle.
+        502 Bad Gateway - This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.
